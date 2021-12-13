@@ -27,13 +27,18 @@ class Main extends Component {
         ? "even"
         : "odd"
     } circle`;
+
         return (
+            <main>
             <div>
-             <h1 className={circleClass}>{this.state.counter}</h1>
+              <div className={circleClass}>
+                    <h1>{this.state.counter}</h1>
+              </div>
             <button onClick={this.addOneHandler}>Add one</button>
             <button onClick={this.removeOneHandler}>Remove one</button>
             <button onClick={this.resetHandler}>Reset</button>
             </div>
+            </main>
         );
     }
 }

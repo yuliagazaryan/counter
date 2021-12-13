@@ -7,24 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+header,
+footer {
+  background-color: #b8f2e6;
+  height: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+main > div {
+  margin: 0 auto;
 }
 
 .circle {
-  height: 200px;
-  width: 200px;
-  background-color: grey;
+  height: 250px;
+  width: 250px;
+  background-color: #faf3dd;
   border-radius: 50%;
-  text-align: center;
-  padding: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #ffa69e;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
 }
 
 .odd {
-  background-color: darkorange;
+  background-color: rgb(240, 255, 173);
 }
 
 .even {
-  background-color: brown;
+  background-color: #fff1c4;
 }
