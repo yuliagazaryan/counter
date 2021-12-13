@@ -53,6 +53,12 @@ button {
   border-radius: 5px;
   border: none;
   margin: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffa69ef6;
+  box-shadow: 1px 2px 10px #ffa69e9a;
 }
 
 .odd {
