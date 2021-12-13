@@ -12,6 +12,7 @@ footer {
   background-color: #b8f2e6;
   height: 50px;
   padding: 20px;
+  width: 100%;
   text-align: center;
 }
 
@@ -22,7 +23,6 @@ h1 {
 footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
 }
 
 main {
